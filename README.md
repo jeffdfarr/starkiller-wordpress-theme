@@ -1,1 +1,1 @@
-# starkiller-wordpress-theme
+# Starkiller
