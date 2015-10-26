@@ -8,7 +8,7 @@
   "require": {
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.2",
-    "logoscon/acf-plus": "dev-master"
+    "wpackagist-plugin/advanced-custom-fields": "*"
   },
   "extra": {
     "wordpress-install-dir": "wp"
