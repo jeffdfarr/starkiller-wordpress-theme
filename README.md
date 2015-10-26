@@ -13,5 +13,5 @@ Starkiller is a modern WordPress stack that helps you get started with the best 
 ### Installation
 
 1. Clone the git repo - `git clone https://github.com/jeffdfarr/starkiller-wordpress-theme.git`
-2. Run `composer install`
+2. Run `php composer.phar install`
 
