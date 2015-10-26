@@ -8,8 +8,7 @@
   "require": {
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.2",
-    "wpackagist-plugin/advanced-custom-fields": "*",
-    "wpackagist-theme/FoundationPress": "*",
+    "wpackagist-plugin/advanced-custom-fields": "*"
   },
   "extra": {
     "wordpress-install-dir": "wp"
