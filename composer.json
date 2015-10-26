@@ -1,15 +1,5 @@
 {
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "http://wpackagist.org"
+    "require": {
+        "monolog/monolog": "1.0.*"
     }
-  ],
-  "require": {
-    "php": ">=5.4",
-    "johnpbloch/wordpress": "4.2",
-  },
-  "extra": {
-    "wordpress-install-dir": "wp"
-  }
 }
