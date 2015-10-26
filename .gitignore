@@ -1,4 +1,5 @@
 wp/
 wp-content/
+STARTER/
 vendor/
 *composer.lock
