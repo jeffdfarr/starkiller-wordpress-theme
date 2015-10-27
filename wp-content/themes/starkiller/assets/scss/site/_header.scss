@@ -1,0 +1,18 @@
+.title-area {
+	padding:0rem;
+	list-style:none;
+}
+#searchform {
+	float:right;
+	#search {
+		background-color:$dk-blue;
+		border:solid 1px $lt-blue;
+		padding:0.25rem;
+	}
+	button.search {
+		background-color:$dk-blue;
+		border:none;
+		color:$white;
+		float:right;
+	}
+}

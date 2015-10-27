@@ -1,0 +1,32 @@
+// Type Rendering
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	@include linear-gradient( $dk-blue 0%, lighten($lt-blue, 20%) 40%, lighten($lt-blue, 20%) 60%, $dk-blue 100%); 
+}
+a {
+	text-decoration:none;
+}
+.page-container {
+	background-color:$white;
+	border-bottom:solid 4px $green;
+	h3 {
+		color:$lt-blue;
+		border-bottom:solid 1px lighten($lt-blue, 30%);
+	}
+	ul {
+		padding: 1em 2em;
+    	margin: 1em 0;
+    	border: solid 1px lighten($lt-blue, 30%);
+    	border-width: 0 1px 1px;
+    	@include linear-gradient( lighten($black, 40%) 0%, lighten($lt-blue, 35%) 5%, $white 80%);	
+	}
+	a {
+		color:$dk-green;
+		text-decoration:underline;
+		&:hover {
+			text-decoration:none;
+		}
+	}
+}
+
