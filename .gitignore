@@ -1,4 +1,4 @@
 wp/
-
+wp-content/plugins
 vendor/
 *composer.lock
