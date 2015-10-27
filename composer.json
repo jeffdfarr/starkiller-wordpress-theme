@@ -14,3 +14,17 @@
     "wordpress-install-dir": "wp"
   }
 }
+
+
+
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jeffdfarr/starkiller-wordpress-theme"
+        }
+    ],
+    "require": {
+        "starkiller-wordpress-theme": "dev-bugfix"
+    }
+}
